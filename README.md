@@ -1,0 +1,3 @@
+# interactive-rating-component
+A small project using HTML, TailwindCSS and Typescript
+Instructions on how to set up properly to follow....
