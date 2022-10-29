@@ -1,5 +1,3 @@
-// coding solution for unclicking a button below:
-// https://stackoverflow.com/questions/70287049/javascript-onclick-how-to-undo-when-clicked-again
 
 const buttonOne = document.getElementById("rating-one") as HTMLButtonElement;
 const buttonTwo = document.getElementById("rating-two") as HTMLButtonElement;
