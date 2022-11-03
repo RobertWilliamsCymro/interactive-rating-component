@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="flex flex-col justify-center items-center bg-black min-h-screen">
+    <div class="block p-6 max-w-sm bg-slate-800 rounded-lg mx-7">
+      <div class="rounded-full bg-slate-700 inline-flex items-center py-2 px-3">
+        <img src="../images/icon-star.svg" />
+      </div>
+      <h2 class="text-3xl text-white font-sans py-5">How did we do?</h2>
+      <p class="text-[15px] font-sans text-gray-400">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <p id="rating-display" class="text-[15px] font-sans text-gray-400">
+      </p>
+      <div class="py-5 sm:space-x-4 text-gray-400">
+        <button id="rating-one" name="ratings" class="rating-not-selected">1</button>
+        <button id="rating-two" name="ratings" class="rating-not-selected">2</button>
+        <button id="rating-three"name="ratings" class="rating-not-selected">3</button>
+        <button id="rating-four" name="ratings" class="rating-not-selected">4</button>
+        <button id="rating-five" name="ratings" class="rating-not-selected">5</button>
+      </div>
+      <button
+        id="submit-rating"        
+        class="bg-orange-400 rounded-full text-2xl py-2 text-white hover:bg-white hover:text-orange-400 w-full"
+        disabled
+      >
+        Submit
+      </button>
+    </div>
+    <script src="../dist/index.js"></script>
+  </body>
+</html>
